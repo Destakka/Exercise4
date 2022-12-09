@@ -28,6 +28,19 @@ namespace Exercise4
                 desta[top] = Console.ReadLine();
             }
         }
-
+        public void pop(int element)
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack Underflow");
+                return ;
+            }
+            else
+            {
+                Console.WriteLine 
+                    ("poped element is: " + desta[top - 1]);
+                return ;
+            }
+        }
     }
 }
