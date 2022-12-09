@@ -59,4 +59,8 @@ namespace Exercise4
             }
         }
     }
+    class Program
+    {
+
+    }
 }
