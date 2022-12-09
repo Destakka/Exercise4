@@ -42,5 +42,21 @@ namespace Exercise4
                 return ;
             }
         }
+        public void display (int element)
+        {
+            if (top == -1)
+            {
+                Console.WriteLine("Stack Underflow");
+                return;
+            }
+            else
+            {
+                for (int i = 0; i <= top; i++)
+                {
+                    Console.WriteLine
+                        ("Item[" + (i + 1) + "]: " + desta[i]);
+                }
+            }
+        }
     }
 }
