@@ -74,6 +74,26 @@ namespace Exercise4
                 Console.WriteLine(" 4. Exit ");
                 Console.WriteLine(" \nEnter your choice: ");
 
+                string sInput = Console.ReadLine();
+                char ch = Convert.ToChar(sInput == "" ? "" : sInput);
+
+                switch (ch)
+                {
+                    case '1':
+                        s.push(22);
+                        break;
+                    case '2':
+                        s.pop(22);
+                        break;
+                    case '3':
+                        s.display(22);
+                        break ;
+                    case '4':
+                        return;
+                    default:
+                        Console.WriteLine("\nInvalid Choice");
+                        break;
+                }
             }
         }
     }
