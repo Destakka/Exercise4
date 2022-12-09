@@ -63,7 +63,11 @@ namespace Exercise4
     {
         static void Main(string[] args)
         {
+            Stack s = new Stack(22);
+            while (true)
+            {
 
+            }
         }
     }
 }
