@@ -14,5 +14,20 @@ namespace Exercise4
             top = -1;
             max = 22;
         }
+        public void push (int element)
+        {
+            if (top == max - 1)
+            {
+                Console.WriteLine("Stack Overflow");
+                return;
+            }
+            else
+            {
+                top++;
+                Console.WriteLine("Pushed element is: ");
+                desta[top] = Console.ReadLine();
+            }
+        }
+
     }
 }
